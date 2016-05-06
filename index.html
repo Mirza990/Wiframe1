@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Social Network</title>
+	<style type="text/css">
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.structure {
+	width: 1000px;
+	height: 1500px;
+	background-color: #953E46;
+	position: absolute;
+}
+
+.header {
+	width: 900px;
+	height: 100px;
+	color:  #F4E3CF;
+	font-size: 28px;
+	font-family: Tahoma;
+	margin: 30px;
+	margin-left: 200px;
+	position: absolute;
+}
+
+input {
+	width: 300px;
+	height: 35px;
+	background-color: #F4E3CF;
+	font-size: 20px;
+	position: absolute;
+	left: 370px;
+	margin: 30px;
+	position: absolute;
+}
+
+.upload {
+	width: 100px;
+	height: 38px;
+	background-color: #F4E3CF;
+	position: absolute;
+	left: 680px;
+	margin: 30px;
+	font-family: Tahoma solid;
+	text-decoration-color: #953E46;
+
+}
+
+.icon {
+	width: 1px
+	height: 1px;
+	color: #F4E3CF;
+}
+
+.user {
+	width: 35px;
+	height: 37px;
+	background-color: #F4E3CF;
+	position: absolute;
+	left: 785px;
+	margin: 30px;
+}
+
+.istifadeci {
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+
+	}
+.username {
+	width: 90px;
+	height: 37px;
+	background-color: #953E46;
+	color:#F4E3CF;
+	font-size: 12px;
+	font-family: Verdana;
+	position: absolute;
+	left: 825px;
+	margin: 35px;
+}
+
+.line1 {
+
+	border: 2px solid #F4E3CF;
+	margin: 100px;
+	margin-left: 200px;
+	
+}
+.navbar {
+	position: absolute;
+	width: 820px;
+	height: 30px;
+	margin: -15px;
+	margin-top: -95px;
+}
+
+.Video {
+	position: absolute;
+	font-size: 16px;
+	font-family: Verdana;
+	color: #F4E3CF;
+	left: 215px;
+
+}
+.Peoples {
+	position: absolute;
+	font-size: 16px;
+	font-family: Verdana;
+	color: #F4E3CF;
+	left: 295px;
+}
+.Documents {
+	position: absolute;
+	font-size: 16px;
+	font-family: Verdana;
+	color: #F4E3CF;
+	margin-left: 20px;
+	left: 360px;
+}
+.Events {
+	position: absolute;
+	font-size: 16px;
+	font-family: Verdana;
+	color: #F4E3CF;
+	left: 495px;
+}
+.Communities {
+	position: absolute;
+	font-size: 16px;
+	font-family: Verdana;
+	color: #F4E3CF;
+	left: 575px;
+	}
+.Favorites {
+	position: absolute;
+	font-size: 16px;
+	font-family: Verdana;
+	color: #F4E3CF;
+	left: 705px;
+	
+}
+.Channels {
+	position: absolute;
+	font-size: 16px;
+	font-family: Verdana;
+	color: #F4E3CF;
+	left: 805px;
+
+}
+.line2 {
+
+	border: 2px solid #F4E3CF;
+	margin: 100px;
+	margin-left: 200px;
+	margin-top: -70px;
+	position: relative;
+	
+}
+
+.menu1 {
+	width: 700px;
+	height:30px;
+	left: 280px;
+	position: absolute;
+	background-color: #953E46;
+	margin: -80px;
+}
+
+.rolik {
+	font-size: 26px;
+	font-family: Verdana;
+	color: #F4E3CF;
+
+}
+
+.Allvideos {
+	font-size: 12px;
+	font-family: Verdana;
+	color:  #F4E3CF;
+	margin: -20px;
+	margin-left: 150px;
+	position: absolute;
+
+}
+
+.Activity {
+	font-size: 26px;
+	font-family: Verdana;
+	color:  #F4E3CF;
+	margin: -35px;
+	margin-left: 380px;
+	position: absolute;
+
+}
+.Timeline {
+	font-size: 12px;
+	font-family: Verdana;
+	color:  #F4E3CF;
+	margin: -20px;
+	margin-left: 525px;
+	position: absolute;
+
+}
+
+.panel1 {
+	width: 250px;
+	height: 280px;
+	background-color: #953E46;
+	left:240px;
+	position: absolute;
+	margin:-40px;
+}
+
+.box1{
+	width: 250px;
+	height: 184px;
+	background-color: #F4E3CF;
+}
+
+.box2
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+.box3
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	float: right;
+	margin: 10px;
+	margin-top: -90px;
+	margin-right: 0px;
+
+}
+.text1 {
+	width: 250px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 15px;
+	color: #953E46;
+	position: absolute;
+	float: left;
+	top: 145px;
+}
+
+.Name {
+	width: 120px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 10px;
+	color: #953E46;
+	position: absolute;
+	float: left;
+
+}
+
+.Views {
+	width: 120px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 10px;
+	color: #953E46;
+	position: absolute;
+	left: 180px;
+
+}
+
+.Name1 {
+	width: 120px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 8px;
+	color: #953E46;
+	position: absolute;
+	float: left;
+	margin-top:80px;
+
+}
+
+.Views1 {
+	width: 120px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 8px;
+	color: #953E46;
+	position: absolute;
+	float: right;
+	margin-left: 75px;
+	margin-top:80px;
+}
+
+.panel2 {
+	width:123px;
+	height: 246px;
+	background-color: #953E46;
+	margin-top:-41px;
+	position: absolute;
+	left: 454px;
+}
+
+.box4
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	margin-top: 1px;
+	position: absolute;
+}
+.box5
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	margin-top: 95px;
+	position: absolute;
+}
+.box6
+{
+	width: 123px;
+	height: 90px;
+	border: 1px solid #F4E3CF; 
+	background-color: #953E46;
+	margin-top: 190px;
+	position: absolute;
+}
+
+.Loading {
+	width: 120px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 12px;
+	color: #F4E3CF;
+	position: absolute;
+	left: 30px;
+	margin-top:40px;
+
+}
+
+.Uploading {
+	width: 120px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 8px;
+	color: #F4E3CF;
+	position: absolute;
+	margin-top:60px;
+	left: 30px;
+}
+
+.panel3 {
+	width:320px;
+	height: 280px;
+	background-color: #953E46;
+	margin: 0px;
+	top:196px;
+	position: absolute;
+	left: 585px;
+}
+
+.qran{
+	width: 320px;
+	height: 70px;
+	background-color: #953E46;
+	position: relative;
+	clear: both;
+}
+
+.qran:hover::before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px;
+	border-right-color: #ccc;
+	border-top-color:#ccc;
+}
+
+.line3 {
+	border-bottom: 4px solid  #F4E3CF;
+	position: relative;
+}
+
+.foto1 {
+	width: 100px;
+	height: 60px;
+	background-color: #F4E3CF;
+	float: left;
+	margin: 0px;
+	margin-top: 10px;
+
+}
+
+.description1 {
+	width: 220px;
+	height: 60px;
+	background-color:#953E46;
+	float: right;
+	margin: 0px;
+	margin-top: 10px;
+}
+
+.Name2 {
+	width: 220px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 12px;
+	color:#F4E3CF;
+	position: absolute;
+	float: left;
+	
+}
+
+.Views2 {
+	width: 220px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 12px;
+	color: #F4E3CF;
+	position: absolute;
+	float: left;
+	margin-top:20px;
+
+}
+.Comment {
+	width: 220px;
+	height: 30px;
+	font-family: Verdana;
+	font-size: 12px;
+	color: #F4E3CF;
+	position: absolute;
+	float: left;
+	margin-top:40px;
+	margin-left: 30px;
+}
+
+.qran1{
+	width: 320px;
+	height: 70px;
+	background-color: #953E46;
+	position: relative;
+	clear: both;
+}
+
+.qran1:hover::before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px;
+	border-right-color: #ccc;
+	border-top-color:#ccc;
+}
+
+.foto2 {
+	width: 100px;
+	height: 60px;
+	background-color: #F4E3CF;
+	float: left;
+	margin: 0px;
+	margin-top: 5px;
+
+}
+
+.description2 {
+	width: 220px;
+	height: 60px;
+	background-color:#953E46;
+	float: right;
+	margin: 0px;
+	margin-top: 5px;
+}
+.qran2{
+	width: 320px;
+	height: 70px;
+	background-color: #953E46;
+	position: relative;
+	clear: both;
+}
+
+.qran2:hover::before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px;
+	border-right-color: #ccc;
+	border-top-color:#ccc;
+}
+
+.foto3 {
+	width: 100px;
+	height: 60px;
+	background-color: #F4E3CF;
+	float: left;
+	margin: 0px;
+	position: relative;
+	margin-top: 0px;
+
+}
+
+.description3 {
+	width: 220px;
+	height: 60px;
+	background-color:#953E46;
+	float: right;
+	margin: 0px;
+	margin-top: 0px;
+	position: relative;
+}
+.qran3{
+	width: 320px;
+	height: 70px;
+	background-color: #953E46;
+	position: relative;
+	clear: both;
+}
+
+.qran3:hover::before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 15px;
+	border-right-color: #ccc;
+	border-top-color:#ccc;
+}
+
+.foto4 {
+	width: 100px;
+	height: 60px;
+	background-color: #F4E3CF;
+	float: left;
+	margin: 0px;
+	position: relative;
+	margin-top: -5px;
+
+}
+
+.description4 {
+	width: 220px;
+	height: 60px;
+	background-color:#953E46;
+	float: right;
+	margin: 0px;
+	margin-top: -5px;
+	position: relative;
+}
+
+.line4 {
+	border-bottom: 4px solid  #F4E3CF;
+	position: relative;
+	margin-top:-8px;
+}
+
+.menu2 {
+	width: 700px;
+	height:30px;
+	left: 280px;
+	position: absolute;
+	background-color: #953E46;
+	margin: 0px;
+	top: 500px;
+	left: 200px;
+}
+
+.People {
+	font-size: 26px;
+	font-family: Verdana;
+	color:  #F4E3CF;
+
+}
+
+.Butun {
+	font-size: 12px;
+	font-family: Verdana;
+	color:    #F4E3CF;
+	margin: -20px;
+	margin-left: 200px;
+	position: absolute;
+
+}
+
+.Kanal {
+	font-size: 26px;
+	font-family: Verdana;
+	color:    #F4E3CF;
+	margin: -35px;
+	margin-left: 380px;
+	position: absolute;
+
+}
+.Kanallar {
+	font-size: 12px;
+	font-family: Verdana;
+	color:    #F4E3CF;
+	margin: -20px;
+	margin-left: 575px;
+	position: absolute;
+
+}
+.panel4 {
+	width: 250px;
+	height: 280px;
+	background-color: #953E46;
+	left:200px;
+	position: absolute;
+	margin:0px;
+	top: 535px;
+}
+.box7{
+	width: 250px;
+	height: 184px;
+	background-color: #F4E3CF;
+}
+
+.box8
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+.box9
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	float: right;
+	margin: 10px;
+	margin-top: -90px;
+	margin-right: 0px;
+
+}
+
+.panel5 {
+	width:123px;
+	height: 246px;
+	background-color:  #953E46;
+	margin-top:0px;
+	top: 535px;
+	position: absolute;
+	left: 454px;
+}
+
+.box10
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	margin-top: 1px;
+	position: absolute;
+}
+.box11
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	margin-top: 95px;
+	position: absolute;
+}
+.box12
+{
+	width: 123px;
+	height: 90px;
+	border: 1px solid #F4E3CF; 
+	background-color: #953E46;
+	margin-top: 190px;
+	position: absolute;
+}
+.panel6 {
+	width:320px;
+	height: 350px;
+	background-color: #953E46;
+	margin: 0px;
+	top:535px;
+	position: absolute;
+	left: 585px;
+}
+
+.line5 {
+	border: 2px solid #F4E3CF;
+	position: relative;
+
+}
+
+.ramka {
+	width: 320px;
+	height: 95px;
+	background-color: #953E46;
+	float: left;
+	position: absolute;
+	margin: 0px;
+	top: 10px;
+}
+
+.ramka1 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	float: left;
+	position: absolute;
+	margin: 0px;
+	top: 10px;
+}
+.ramka2 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	left: 165px;
+	position: absolute;
+	margin: 0px;
+	top: 10px;
+}
+.ramka01 {
+	width: 320px;
+	height: 95px;
+	background-color:#953E46;
+	position: absolute;
+	margin: 0px;
+	top: 650px;
+	left: 585px;
+}
+
+.ramka3 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	float: left;
+	position: absolute;
+	left:750px;
+	margin: 0px;
+	top: 650px;
+}
+.ramka4 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	left: 585px;
+	position: absolute;
+	margin: 0px;
+	top: 650px;
+}
+
+.ramka02 {
+	width: 320px;
+	height: 95px;
+	background-color:#953E46;
+	position: absolute;
+	margin: 0px;
+	top: 755px;
+	left: 585px;
+}
+
+.ramka5 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	float: left;
+	position: absolute;
+	left:750px;
+	margin: 0px;
+	top: 755px;
+}
+.ramka6 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	left: 585px;
+	position: absolute;
+	margin: 0px;
+	top: 755px;
+}
+
+.ramka03 {
+	width: 320px;
+	height: 95px;
+	background-color:#953E46;
+	position: absolute;
+	margin: 0px;
+	top: 860px;
+	left: 585px;
+}
+
+.ramka7 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	float: left;
+	position: absolute;
+	left:750px;
+	margin: 0px;
+	top: 860px;
+}
+.ramka8 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	left: 585px;
+	position: absolute;
+	margin: 0px;
+	top: 860px;
+}
+
+.ramka04 {
+	width: 320px;
+	height: 105px;
+	background-color:#953E46;
+	position: absolute;
+	margin: 0px;
+	top: 965px;
+	left: 585px;
+}
+
+.ramka9 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	float: left;
+	position: absolute;
+	left:750px;
+	margin: 0px;
+	top: 965px;
+}
+.ramka10 {
+	width: 155px;
+	height: 95px;
+	background-color: #F4E3CF;
+	left: 585px;
+	position: absolute;
+	margin: 0px;
+	top: 965px;
+}
+
+.line6 {
+	width: 320px;
+	height: 3px;
+	background-color: #F4E3CF;
+	position: relative;
+	top: 100px;
+
+}
+
+.menu3 {
+	width: 370px;
+	height:30px;
+	left: 280px;
+	position: absolute;
+	background-color: #953E46;
+	margin: 0px;
+	top: 820px;
+	left: 200px;
+}
+
+.Sened {
+	font-size: 26px;
+	font-family: Verdana;
+	color:  #F4E3CF;
+
+}
+
+.Senedler {
+	font-size: 12px;
+	font-family: Verdana;
+	color:    #F4E3CF;
+	margin: -20px;
+	margin-left: 200px;
+	position: absolute;
+
+}
+.panel7 {
+	width: 250px;
+	height: 280px;
+	background-color: #953E46;
+	left:200px;
+	position: absolute;
+	margin:0px;
+	top: 855px;
+}
+.box13{
+	width: 250px;
+	height: 184px;
+	background-color: #F4E3CF;
+}
+
+.box14
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	margin-top: 5px;
+	margin-left: 0px;
+}
+.box15
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	float: right;
+	margin: 10px;
+	margin-top: -90px;
+	margin-right: 0px;
+
+}
+
+.panel8 {
+	width:123px;
+	height: 246px;
+	background-color:  #953E46;
+	margin-top:0px;
+	top: 855px;
+	position: absolute;
+	left: 454px;
+}
+
+.box16
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	margin-top: 1px;
+	position: absolute;
+}
+.box17
+{
+	width: 123px;
+	height: 90px;
+	background-color: #F4E3CF;
+	margin-top: 95px;
+	position: absolute;
+}
+.box18
+{
+	width: 123px;
+	height: 90px;
+	border: 1px solid #F4E3CF; 
+	background-color: #953E46;
+	margin-top: 190px;
+	position: absolute;
+}
+
+.line7 {
+	width: 710px;
+	height: 3px;
+	background-color: #F4E3CF;
+	position: relative;
+	top: 950px;
+	left: 200px;
+
+}
+.socium {
+	width: 180px;
+	height: 25px;
+	background-color: #F4E3CF;
+	position: relative;
+	top: 960px;
+	left: 200px;
+}
+
+.footer {
+
+	width: 820px;
+	height: 100px;
+	position: relative;
+	top: 970px;
+	left: -15px;
+
+}
+
+.copy {
+	font-size: 16px;
+	font-family: Verdana;
+	color:#F4E3CF; ;
+	margin:0px;
+	top: 50px;
+	left: 210px;
+	position: absolute;
+}
+
+
+	</style>
+</head>
+<body class="structure">
+
+<div class="header">SocialNetwork</div>
+	<input text="Search"></img></input>
+		<button class="upload">Upload</button>
+			<div class="user"><img class="istifadeci" src="http://mghr.ch/mitglieder/unknow.png"></div>
+				<div class="username">Mirza Maharramov</div>
+					
+					<div class="line1"></div>
+					<div class="navbar">
+						<div class="Video">Videos /</div>
+						<div class="Peoples">Peoples /</div>
+						<div class="Documents">Documents /</div>
+						<div class="Events">Events /</div>
+						<div class="Communities">Communities /</div>
+						<div class="Favorites">Favorites /</div>	
+						<div class="Channels">Channel</div>
+						</div>			
+							<div class="line2"></div>
+<div class="menu1">
+		<p class="rolik">Videos</p>
+		<p class="Allvideos">Brows all videos</p>
+		<p class="Activity">Activity</p>
+		<p class="Timeline">View timeline/Filter activities</p>
+		</div>
+
+
+					<div class="panel1">
+						<div class="box1">
+							<div class="text1">How to improve your skills
+							<p class="Name">Mirza Maharramov</p>
+							<p class="Views">19238 views</p>
+							</div>
+							
+						</div>
+						<div class="box2">
+						<p class="Name1">Maharramov</p>
+						<p class="Views1">192 views</p></div>
+							<div class="box3">
+							<p class="Name1">Maharramov</p>
+							<p class="Views1">197 views</p>
+							</div>
+						</div>
+
+<div class="panel2"> 
+	<div class="box4">
+	<p class="Name1">Maharramov</p>
+	<p class="Views1">19 views</p>
+	</div>
+		<div class="box5">
+		<p class="Name1">Maharramov</p>
+		<p class="Views1">175 views</p>
+		</div>
+			<div class="box6">
+			<p class="Loading">Upload</p>
+			<p class="Uploading">Your Own Video</p>
+			</div>
+	</div> 
+
+<div class="panel3">
+	<div class="line3"></div>
+		<div class="qran">
+			<div class="foto1"></div>
+				<div class="description1">
+					<p class="Name2">Mirza Maharramov commented</p>
+					<p class="Views2">Oh, I like that...</p>
+					<p class="Comment">2 segonds ago<p>
+				</div>
+	</div>
+<div class="qran1">
+			<div class="foto2"></div>
+				<div class="description2">
+					<p class="Name2">Mirza Maharramov commented</p>
+					<p class="Views2">Oh, I like that...</p>
+					<p class="Comment">2 segonds ago<p>
+				</div>
+	</div>
+<div class="qran2">
+			<div class="foto3"></div>
+				<div class="description3">
+					<p class="Name2">Mirza Maharramov commented</p>
+					<p class="Views2">Oh, I like that...</p>
+					<p class="Comment">2 segonds ago<p>
+				</div>
+	</div>
+<div class="qran3">
+			<div class="foto4"></div>
+				<div class="description4">
+					<p class="Name2">Mirza Maharramov commented</p>
+					<p class="Views2">Oh, I like that...</p>
+					<p class="Comment">2 segonds ago<p>
+				</div>
+	</div>
+	<div class="line4"></div>
+</div>
+
+<div class="menu2">
+		<p class="People">People</p>
+		<p class="Butun">View all</p>
+		<p class="Kanal">Channels</p>
+		<p class="Kanallar">Browse all channels</p>
+		</div>
+<div class="panel4">
+						<div class="box7">
+							<div class="text1">How to improve your skills
+							<p class="Name">Mirza Maharramov</p>
+							<p class="Views">19238 views</p>
+							</div>
+							
+						</div>
+
+						<div class="box8">
+						<p class="Name1">Maharramov</p>
+						<p class="Views1">192 views</p></div>
+							<div class="box9">
+							<p class="Name1">Maharramov</p>
+							<p class="Views1">197 views</p>
+							</div>
+						</div>
+
+<div class="panel5"> 
+	<div class="box10">
+	<p class="Name1">Maharramov</p>
+	<p class="Views1">19 views</p>
+	</div>
+		<div class="box11">
+		<p class="Name1">Maharramov</p>
+		<p class="Views1">175 views</p>
+		</div>
+			<div class="box12">
+			<p class="Loading">Show</p>
+			<p class="Uploading">Your Work</p>
+			</div>
+	</div> 
+<div class="panel6">
+	<div class="line5"></div>
+			<div class="ramka"></div>
+				<div class="ramka1"></div>
+					<div class="ramka2"></div>
+				
+				</div>
+<div class="ramka01"></div>
+	<div class="ramka3"></div>
+		<div class="ramka4"></div>
+				
+				</div>
+<div class="ramka02"></div>
+	<div class="ramka5"></div>
+		<div class="ramka6"></div>
+				
+				</div>
+<div class="ramka03"></div>
+	<div class="ramka7"></div>
+		<div class="ramka8"></div>
+				
+				</div>
+<div class="ramka04"></div>
+	<div class="ramka9"></div>
+		<div class="ramka10">
+			<div class="line6"></div>
+				</div>
+
+				</div>
+
+<div class="menu3">
+		<p class="Sened">Documents</p>
+		<p class="Senedler">Browse all documents</p>
+		
+		</div> 
+<div class="panel7">
+						<div class="box13">
+							<div class="text1">How to improve your skills
+							<p class="Name">Mirza Maharramov</p>
+							<p class="Views">19238 views</p>
+							</div>
+							
+						</div>
+
+						<div class="box14">
+						<p class="Name1">Maharramov</p>
+						<p class="Views1">192 views</p></div>
+							<div class="box15">
+							<p class="Name1">Maharramov</p>
+							<p class="Views1">197 views</p>
+							</div>
+						</div>
+
+<div class="panel8"> 
+	<div class="box16">
+	<p class="Name1">Maharramov</p>
+	<p class="Views1">19 views</p>
+	</div>
+		<div class="box17">
+		<p class="Name1">Maharramov</p>
+		<p class="Views1">175 views</p>
+		</div>
+			<div class="box18">
+			<p class="Loading">Share</p>
+			<p class="Uploading">Your Documents</p>
+			</div>
+	</div> 
+<div class="line7"></div>
+<img class="socium" src="http://bananarepublic.gap.eu/Asset_Archive/BRWeb/content/0010/870/064/assets/Icons.png"></div>
+<div class="footer">
+<div class="Video">Videos /</div>
+	<div class="Peoples">Peoples /</div>
+		<div class="Documents">Documents /</div>
+			<div class="Events">Events /</div>
+				<div class="Communities">Communities /</div>
+					<div class="Favorites">Favorites /</div>	
+						<div class="Channels">Channel</div> 
+							<p class="copy">&copy; 2016 Social Network inc<p>
+						</div>
+	</div>
+</body>
+</html>
